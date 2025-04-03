@@ -14,7 +14,7 @@ const AdminRoute = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admin/dashboard" element={<MainDashboard />} />
         <Route path="/admin/home-buyers" element={<HomeBuyer />} />
