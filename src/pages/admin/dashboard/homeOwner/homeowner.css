@@ -1,0 +1,66 @@
+.addUserBtn{
+    display: flex;
+height: 36px;
+padding: 4px 24px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 8px;
+background: var(--Red-Gradient, linear-gradient(180deg, #F00 0%, #900 100%));
+color: var(--BG, #F3F3F3);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+outline: none;
+border: 0px;
+}
+
+.homwOwnerCard{
+background: var(--Red-Gradient, linear-gradient(180deg, #F00 0%, #900 100%)) !important; 
+}
+
+.homwOwnerCard2{
+background: #D21B1B !important; 
+}
+
+.homeownerBtn{
+    display: flex;
+padding: 10px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;border-radius: 32px;
+background: var(--Prime, #D21B1B);
+}
+
+.rateDiv{
+display: flex;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+justify-content: center;
+}
+.con1{
+    display: flex;
+padding: 6px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+border-radius: 63px;
+border: 1px solid var(--Border, #B7B7B7);
+background: var(--BG, #F3F3F3);
+}
+
+.no1{
+    color: var(--H1, #202020);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+}
+
+.homeownerCard{
+    height: 926px;
+}

@@ -1,0 +1,27 @@
+.iconTwoDiv1{
+    border-radius: 12px;
+background: var(--Loan-Gradient, linear-gradient(180deg, #0BBD84 0%, #057450 100%)) !important;
+}
+
+.iconTwoDiv000{
+    border-radius: 12px;
+  display: flex;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  aspect-ratio: 1/1;
+  background-color: #009666 !important;
+}
+
+.homeByerBtn24{
+      display: flex;
+padding: 10px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 32px;
+background: var(--Prime, #D21B1B);
+
+}

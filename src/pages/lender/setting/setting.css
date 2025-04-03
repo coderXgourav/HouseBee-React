@@ -1,0 +1,203 @@
+.settingDiv1{
+    display: flex;
+padding: 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+align-self: stretch;
+border-radius: 16px;
+border: 1px solid var(--Border, #B7B7B7);
+background: #FFF;
+}
+.personal{
+    color: var(--Accent, #595959) !important;
+font-size: 20px !important; 
+font-style: normal;
+font-weight: 600;
+line-height: 16px; /* 80% */
+}
+
+.Editbtn{
+    display: flex;
+height: 48px;
+padding: 4px 32px;
+align-items: center;
+gap: 12px;
+border-radius: 8px;
+background: var(--Accent, #595959);
+color: var(--BG, #F3F3F3);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+border: 0px;
+outline: none;
+cursor: pointer;
+}
+
+.settingDiv2{
+    display: flex;
+align-items: center;
+gap: 27px;
+}
+.settingDiv2 img{
+display: flex;
+width: 80px;
+height: 80px;
+padding: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+aspect-ratio: 1/1;
+}
+
+
+.inputSetting{
+    display: flex;
+height: 52px;
+padding: 16px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 12px;
+border: 1px solid var(--Border, #B7B7B7);
+background: var(--BG, #F3F3F3);
+outline: none;
+font-size: 20px !important;
+
+}
+
+.settingDiv3{
+display: flex;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+
+}
+
+.settingDiv4{
+display: flex;
+align-items: center;
+gap: 32px;
+align-self: stretch;
+
+}
+
+.settingDiv4 div input{
+    width: 100%;
+}
+
+.settingDiv3 div{
+    width: 100%;
+}
+.settingDiv3 div input{
+    width: 100%;
+}
+
+.settingLabel{
+    color: var(--Accent, #595959) !important;
+font-size: 20px !important;
+font-style: normal !important;
+font-weight: 600 !important;
+line-height: normal !important;
+margin-bottom: 10px !important;
+}
+.changeBtn{
+color: var(--BG, #F3F3F3);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 100% */
+border: 0px;
+outline: none;
+
+display: flex;
+height: 52px;
+padding: 4px 32px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 8px;
+background: var(--Accent, #595959);
+}
+
+.inputSetting2{
+display: flex;
+height: 52px;
+padding: 16px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 12px;
+border: 1px solid var(--Border, #B7B7B7);
+background: var(--BG, #F3F3F3);
+outline: none;
+font-size: 20px !important;
+ 
+}
+
+.alertSvg{
+    display: flex;
+width: 32px;
+height: 32px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 18px;
+background: var(--Prime, #D21B1B);
+}
+
+.notificationDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+
+.loremNotification{
+    color: var(--Accent, #595959) !important; 
+font-size: 14px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height: normal !important;
+}
+.notifi{
+    display: flex;
+    width: 100%;
+    height: 92px;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    border: 1px solid var(--Border, #B7B7B7);
+    /* background: var(--BG, #F3F3F3); */
+    outline: none;
+    font-size: 20px !important;
+
+}
+.googleLogo{
+    font-size: 16px !important;
+    color: black;
+}
+
+.disConnectBtn{
+    color: var(--BG, #F3F3F3);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 114.286% */
+display: flex;
+height: 36px;
+padding: 4px 16px;
+align-items: center;
+gap: 12px;
+border-radius: 8px;
+background: var(--Accent, #595959);
+outline: none;
+border: 0px;
+}

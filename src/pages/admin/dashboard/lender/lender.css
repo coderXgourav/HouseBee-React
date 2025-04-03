@@ -1,0 +1,15 @@
+.cardGreen{
+    border-radius: 12px;
+background: var(--Loan-Gradient, linear-gradient(180deg, #0BBD84 0%, #057450 100%)) !important;
+}
+.cardGreen2{
+    background-color: #009666 !important;
+}
+.addGreen{
+    border-radius: 8px;
+background: var(--Loan-Gradient, linear-gradient(180deg, #0BBD84 0%, #057450 100%));
+}
+.lenderGreen{
+    border-radius: 21px;
+background: var(--Green, #009666) !important;
+}

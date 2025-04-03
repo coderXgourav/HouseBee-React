@@ -1,0 +1,9 @@
+.realtorBtn{
+      display: flex;
+padding: 10px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 32px;
+    background-color: #1D93DD !important;
+}

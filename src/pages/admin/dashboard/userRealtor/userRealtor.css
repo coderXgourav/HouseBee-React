@@ -1,0 +1,30 @@
+.addRealtorBtn{
+display: flex;
+height: 36px;
+padding: 4px 24px;
+justify-content: center;
+align-items: center;
+gap: 6px;
+border-radius: 12px;
+background: var(--Blue-Gradient, linear-gradient(180deg, #1D93DD 0%, #0B5B8D 100%)) !important;
+}
+.realtorCard{
+    background-color: #1D93DD !important; 
+}
+.realtorCard1{
+    border-radius: 12px;
+background: var(--Blue-Gradient, linear-gradient(180deg, #1D93DD 0%, #0B5B8D 100%)) !important;
+}
+.realtorBtnBg{
+   display: flex;
+height: 40px;
+padding: 6px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+align-self: stretch;
+border-radius: 21px;
+background: var(--Realtor, #1D93DD) !important;
+
+}
