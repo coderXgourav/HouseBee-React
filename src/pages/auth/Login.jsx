@@ -18,7 +18,7 @@ const Login = () => {
     <div className="main">
       <div className="left-panel">
         <img
-          src="/public/web/img.png"
+          src="/web/img.png"
           alt="Modern building with glass facade"
         />
         <div className="logo">

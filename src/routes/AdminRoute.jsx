@@ -9,6 +9,7 @@ import HomeOwner from "../pages/admin/dashboard/homeOwner/HomeOwner";
 import Lender from "../pages/admin/dashboard/lender/Lender";
 import UserRealtor from "../pages/admin/dashboard/userRealtor/UserRealtor";
 import Setting from "../pages/admin/dashboard/setting/Setting";
+import ComingSoon from "../pages/ComingSoon/ComingSoon";
   
 const AdminRoute = () => {
   return (
@@ -24,6 +25,7 @@ const AdminRoute = () => {
         <Route path="/admin/lenders" element={<Lender />} />
         <Route path="/admin/user-realtor" element={<UserRealtor />} />
         <Route path="/admin/setting" element={<Setting />} />
+        <Route path="*" element={<ComingSoon />} />
       </Routes>
     </Router>
   );
