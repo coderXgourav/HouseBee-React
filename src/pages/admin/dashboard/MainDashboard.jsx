@@ -1,10 +1,10 @@
 import Sidebar from "../../../components/Sidebar/adminSidebar/Sidebar";
 import "./dashboard.css";
-import filter1 from "/web/filter1.svg";
-import agent from "/web/agent.svg";
-import lender from "/web/lender.svg";
-import sales from "/web/sales.png";
-import banker from "/web/banker.png";
+import filter1 from "../../../assets/web/agent.svg";
+import agent from "../../../assets/web/agent.svg";
+import lender from "../../../assets/web/lender.svg";
+import sales from "../../../assets/web/sales.png";
+import banker from "../../../assets/web/banker.png";
 import { Link } from "react-router-dom";
 
 export default function MainDashboard() {

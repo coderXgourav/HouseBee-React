@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./signup.css";
 import { Link } from "react-router-dom";
+import img1 from "../../assets/web/img.png";
+import logo from "../../assets/web/image 4.png";
 
 const Login = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -18,11 +20,11 @@ const Login = () => {
     <div className="main">
       <div className="left-panel">
         <img
-          src="/web/img.png"
+          src={img1}
           alt="Modern building with glass facade"
         />
         <div className="logo">
-          <img src="/web/image 4.png" alt="Logo" />
+          <img src={logo} alt="Logo" />
         </div>
         <div className="overlay-text">
           <h1>Lorem ipsum</h1>
@@ -107,9 +109,10 @@ const Login = () => {
                 </div>
               </div>
 
-              <button type="submit" className="signup-btn">
+              <Link to={"/admin/dashboard"}><button type="submit" className="signup-btn">
                 Sign Up
               </button>
+              </Link>
               <div className="login-link">
                 Don’t have an account? <Link to="/signup">Sign Up</Link>
               </div>

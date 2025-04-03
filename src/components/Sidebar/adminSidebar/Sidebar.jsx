@@ -1,6 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import "../sidebar.css";
 import { useState, useEffect } from "react";
+import logo from "../../../assets/web/image 4.png";
+
 
 const Sidebar = ({ children }) => {
   const location = useLocation();
@@ -62,7 +64,7 @@ const Sidebar = ({ children }) => {
     <div className="d-flex">
       <div className="col-md-2 sidebar bg-light vh-100 border">
         <div>
-          <img src="/web/logo.png" alt="logo" className="sideLogo" />
+          <img src={logo} alt="logo" className="sideLogo" />
         </div>
         <div>
           <div className="row">

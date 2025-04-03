@@ -1,4 +1,3 @@
-/* coming.model.css */
 .coming-soon-container {
   display: flex;
   justify-content: center;
@@ -10,7 +9,7 @@
   font-family: 'Arial', sans-serif;
 }
 
-.logo {
+/* .logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,4 +95,4 @@ button:hover {
 .success {
   color: #4caf50;
   font-weight: bold;
-}
+} */
