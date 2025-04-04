@@ -179,7 +179,7 @@ const Sidebar = ({ children }) => {
             <div className="col-md-2"></div>
             <div className="col-md-10">
               <div className="p-3 logout">
-                <Link to={""} className="text-light underlineNone">
+                <Link to={"/"} className="text-light underlineNone">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

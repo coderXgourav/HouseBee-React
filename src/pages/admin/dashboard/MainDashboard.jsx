@@ -1,11 +1,15 @@
 import Sidebar from "../../../components/Sidebar/adminSidebar/Sidebar";
 import "./dashboard.css";
-import filter1 from "../../../assets/web/agent.svg";
+import filter1 from "../../../assets/web/filter1.svg";
 import agent from "../../../assets/web/agent.svg";
 import lender from "../../../assets/web/lender.svg";
 import sales from "../../../assets/web/sales.png";
 import banker from "../../../assets/web/banker.png";
 import { Link } from "react-router-dom";
+import one from  "../../../assets/web/0.png"
+import two from  "../../../assets/web/1.png"
+import three from  "../../../assets/web/3.png"
+import four from  "../../../assets/web/4.png"
 
 export default function MainDashboard() {
   return (
@@ -149,7 +153,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/0.png" alt="" />
+                            <img src={one} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -281,7 +285,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/1.png" alt="" />
+                            <img src={one} alt="" />
                             <div>
                               &ensp;
                               <span>John Carter</span>
@@ -413,7 +417,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/2.png" alt="" />
+                            <img src={two} alt="" />
                             <div>
                               &ensp;
                               <span>Emily Davis</span>
@@ -545,7 +549,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/2.png" alt="" />
+                            <img src={two} alt="" />
                             <div>
                               &ensp;
                               <span>Sarah Miller</span>
@@ -677,7 +681,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/4.png" alt="" />
+                            <img src={four} alt="" />
                             <div>
                               &ensp;
                               <span>Aisha Hassan</span>
@@ -809,7 +813,7 @@ export default function MainDashboard() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/4.png" alt="" />
+                            <img src={four} alt="" />
                             <div>
                               &ensp;
                               <span>Isla Monroe</span>
@@ -1273,7 +1277,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/2.png" alt="" />
+                              <img src={two} alt="" />
                               <div>
                                 &nbsp; <span>Samantha Smith</span>
                               </div>
@@ -1293,7 +1297,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/3.png" alt="" />
+                              <img src={three} alt="" />
                               <div>
                                 &nbsp; <span>David Johnson</span>
                               </div>
@@ -1313,7 +1317,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/4.png" alt="" />
+                              <img src={four} alt="" />
                               <div>
                                 &nbsp; <span>Emily Davis</span>
                               </div>
@@ -1332,7 +1336,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/3.png" alt="" />
+                              <img src={three} alt="" />
                               <div>
                                 &nbsp; <span>Michael Brown</span>
                               </div>
@@ -1352,7 +1356,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/2.png" alt="" />
+                              <img src={two} alt="" />
                               <div>
                                 &nbsp; <span>Rachel Wilson</span>
                               </div>
@@ -1371,7 +1375,7 @@ export default function MainDashboard() {
                         <tr>
                           <td className="name">
                             <div className="nameDiv">
-                              <img src="/web/1.png" alt="" />
+                              <img src={one} alt="" />
                               <div>
                                 &nbsp; <span>James Martinez</span>
                               </div>

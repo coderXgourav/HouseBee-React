@@ -1,6 +1,11 @@
 import Sidebar from "../../../components/Sidebar/LenderSidebar/Sidebar";
 import "./lead.css";
 import { Link } from "react-router-dom";
+import one from  "../../../assets/web/0.png"
+import two from  "../../../assets/web/1.png"
+import three from  "../../../assets/web/3.png"
+import four from  "../../../assets/web/4.png"
+import five from  "../../../assets/web/5.png"
 
 export default function LeadManagement() {
   return (
@@ -19,7 +24,7 @@ export default function LeadManagement() {
                 <div className="cardTwo">
                   <div>
                     <p className="" style={{ color: "#595959" }}>
-                      Home Buyer
+                      Hot Leads
                     </p>
                     <span className="cardCount2">42</span>
                     <div>
@@ -135,13 +140,38 @@ export default function LeadManagement() {
                 </div>
               </div>
               <div className="tableDiv">
-                <div className="tableTime">
-                  <p className="recentLeads">Home Buyers</p>
-                  <select name="" id="" className="selectWeekly">
-                    <option value="">Weekly</option>
-                    <option value="">Monthly</option>
-                    <option value="">Yearly</option>
-                  </select>
+               <div className="tableTime">
+                  <div className="" style={{display:"flex", gap:"15px",alignItems:"center"}}>
+                  <p className="recentLeads">For Loan</p>
+                  <p className="recentLeads numberHomeBuyer">100</p>
+                  </div>
+                  <div>
+                    <div>
+                      <input type="text" className="searchFilter" placeholder="Search.." />
+                    </div>
+                  </div>
+                 
+                 <div style={{display:"flex", gap:"15px"}}>
+                  <div className="sortFilter">
+                    <div>
+                      <button className="sortBtn">Sort<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.31313 10.3535L10.3131 12.3535C10.5084 12.5488 10.8249 12.5488 11.0202 12.3535L13.0202 10.3535C13.2155 10.1583 13.2155 9.84173 13.0202 9.64647C12.8249 9.4512 12.5084 9.4512 12.3131 9.64647L11.1667 10.7929V4C11.1667 3.72386 10.9428 3.5 10.6667 3.5C10.3905 3.5 10.1667 3.72386 10.1667 4V10.7929L9.02019 9.64647C8.82493 9.4512 8.50839 9.4512 8.31313 9.64647C8.11786 9.84173 8.11786 10.1583 8.31313 10.3535ZM5.68688 3.64645C5.49162 3.45119 5.17503 3.45119 4.97977 3.64645L2.97977 5.64645C2.78451 5.84171 2.78451 6.15829 2.97977 6.35355C3.17503 6.54881 3.49162 6.54881 3.68688 6.35355L4.83333 5.20711V12C4.83333 12.2761 5.05719 12.5 5.33333 12.5C5.60947 12.5 5.83333 12.2761 5.83333 12V5.20711L6.97979 6.35355C7.17506 6.54881 7.49159 6.54881 7.68686 6.35355C7.88213 6.15829 7.88213 5.84171 7.68686 5.64645L5.68688 3.64645Z" fill="#D21B1B"/>
+</svg></button>
+                    </div>
+                      <div>
+                      <button className="filterBtn">Filter <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+  <path d="M8.72725 2.18179C8.72725 1.85814 8.82322 1.54176 9.00303 1.27266C9.18284 1.00356 9.4384 0.793826 9.73741 0.669972C10.0364 0.546119 10.3654 0.513713 10.6829 0.576853C11.0003 0.639993 11.2919 0.795843 11.5207 1.02469C11.7496 1.25354 11.9054 1.54512 11.9686 1.86254C12.0317 2.17997 11.9993 2.50899 11.8754 2.808C11.7516 3.10701 11.5418 3.36257 11.2727 3.54238C11.0036 3.72219 10.6873 3.81816 10.3636 3.81816C9.92963 3.81816 9.51341 3.64576 9.20653 3.33888C8.89965 3.032 8.72725 2.61578 8.72725 2.18179ZM0.545378 2.72724H7.09088C7.23554 2.72724 7.37428 2.66978 7.47657 2.56748C7.57887 2.46519 7.63633 2.32645 7.63633 2.18179C7.63633 2.03712 7.57887 1.89838 7.47657 1.79609C7.37428 1.6938 7.23554 1.63633 7.09088 1.63633H0.545378C0.400714 1.63633 0.261974 1.6938 0.159681 1.79609C0.0573876 1.89838 -8.01086e-05 2.03712 -8.01086e-05 2.18179C-8.01086e-05 2.32645 0.0573876 2.46519 0.159681 2.56748C0.261974 2.66978 0.400714 2.72724 0.545378 2.72724ZM3.81813 4.36362C3.48052 4.36457 3.15147 4.46992 2.87609 4.66522C2.6007 4.86053 2.39247 5.13623 2.27993 5.45453H0.545378C0.400714 5.45453 0.261974 5.512 0.159681 5.6143C0.0573876 5.71659 -8.01086e-05 5.85533 -8.01086e-05 5.99999C-8.01086e-05 6.14466 0.0573876 6.2834 0.159681 6.38569C0.261974 6.48798 0.400714 6.54545 0.545378 6.54545H2.27993C2.38 6.82848 2.55599 7.07852 2.78865 7.26822C3.02131 7.45792 3.30167 7.57997 3.59905 7.621C3.89643 7.66203 4.19936 7.62047 4.4747 7.50087C4.75004 7.38126 4.98717 7.18822 5.16014 6.94287C5.33312 6.69752 5.43526 6.40931 5.45541 6.10979C5.47555 5.81027 5.41292 5.51099 5.27435 5.24468C5.13579 4.97838 4.92665 4.75532 4.6698 4.59992C4.41296 4.44453 4.11832 4.36278 3.81813 4.36362ZM11.4545 5.45453H7.09088C6.94621 5.45453 6.80747 5.512 6.70518 5.6143C6.60289 5.71659 6.54542 5.85533 6.54542 5.99999C6.54542 6.14466 6.60289 6.2834 6.70518 6.38569C6.80747 6.48798 6.94621 6.54545 7.09088 6.54545H11.4545C11.5992 6.54545 11.7379 6.48798 11.8402 6.38569C11.9425 6.2834 12 6.14466 12 5.99999C12 5.85533 11.9425 5.71659 11.8402 5.6143C11.7379 5.512 11.5992 5.45453 11.4545 5.45453ZM4.90904 9.27274H0.545378C0.400714 9.27274 0.261974 9.33021 0.159681 9.4325C0.0573876 9.53479 -8.01086e-05 9.67354 -8.01086e-05 9.8182C-8.01086e-05 9.96286 0.0573876 10.1016 0.159681 10.2039C0.261974 10.3062 0.400714 10.3637 0.545378 10.3637H4.90904C5.05371 10.3637 5.19245 10.3062 5.29474 10.2039C5.39703 10.1016 5.4545 9.96286 5.4545 9.8182C5.4545 9.67354 5.39703 9.53479 5.29474 9.4325C5.19245 9.33021 5.05371 9.27274 4.90904 9.27274ZM11.4545 9.27274H9.71998C9.59131 8.9088 9.33813 8.60207 9.00517 8.40675C8.67222 8.21144 8.28094 8.14012 7.90048 8.20539C7.52003 8.27067 7.1749 8.46834 6.92609 8.76347C6.67728 9.0586 6.54082 9.43219 6.54082 9.8182C6.54082 10.2042 6.67728 10.5778 6.92609 10.8729C7.1749 11.1681 7.52003 11.3657 7.90048 11.431C8.28094 11.4963 8.67222 11.425 9.00517 11.2296C9.33813 11.0343 9.59131 10.7276 9.71998 10.3637H11.4545C11.5992 10.3637 11.7379 10.3062 11.8402 10.2039C11.9425 10.1016 12 9.96286 12 9.8182C12 9.67354 11.9425 9.53479 11.8402 9.4325C11.7379 9.33021 11.5992 9.27274 11.4545 9.27274Z" fill="#F7F9FC"/>
+</svg></button>
+                    </div>
+                    <div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z" fill="#595959"/>
+  <path d="M4 14C5.10457 14 6 13.1046 6 12C6 10.8954 5.10457 10 4 10C2.89543 10 2 10.8954 2 12C2 13.1046 2.89543 14 4 14Z" fill="#595959"/>
+  <path d="M20 14C21.1046 14 22 13.1046 22 12C22 10.8954 21.1046 10 20 10C18.8954 10 18 10.8954 18 12C18 13.1046 18.8954 14 20 14Z" fill="#595959"/>
+</svg>
+                    </div>
+                  </div>
+                 </div>
                 </div>
                 <div>
                   <table class="table table-bordered">
@@ -181,7 +211,7 @@ export default function LeadManagement() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/0.png" alt="" />
+                            <img src={five} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -315,7 +345,7 @@ export default function LeadManagement() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/1.png" alt="" />
+                            <img src={one} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -449,7 +479,7 @@ export default function LeadManagement() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/2.png" alt="" />
+                            <img src={two} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -583,7 +613,7 @@ export default function LeadManagement() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/3.png" alt="" />
+                            <img src={three} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -717,7 +747,7 @@ export default function LeadManagement() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/4.png" alt="" />
+                            <img src={four} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -1056,7 +1086,7 @@ export default function LeadManagement() {
                 <div className="allData">
                   <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
                     <div>
-                      <img src="/web/1.png" alt="" />
+                      <img src={one} alt="" />
                     </div>
                       <div>
                         <p className="" style={{color:"#000",fontSize:"20px",fontWeight:"600", marginBottom:"0px"}}>Alex Smith</p>

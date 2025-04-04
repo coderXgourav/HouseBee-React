@@ -1,6 +1,8 @@
 import Sidebar from "../../../components/Sidebar/LenderSidebar/Sidebar";
 import "./setting.css";
 import { Link } from "react-router-dom";
+import one from  "../../../assets/web/0.png"
+
 
 export default function Setting() {
   return (
@@ -17,7 +19,7 @@ export default function Setting() {
                     <p className="personal">Personal Information</p>
                 <div className="settingDiv2">
                     <div>
-                        <img src="/web/1.png" alt="" />
+                        <img src={one} alt="" />
                     </div>
 
                     <div>

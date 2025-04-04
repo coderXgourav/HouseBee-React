@@ -1,6 +1,11 @@
 import Sidebar from "../../../../components/Sidebar/adminSidebar/Sidebar";
 import "./lender.css";
 import { Link } from "react-router-dom";
+import one from  "../../../../assets/web/0.png"
+import two from  "../../../../assets/web/1.png"
+import three from  "../../../../assets/web/3.png"
+import four from  "../../../../assets/web/4.png"
+import five from  "../../../../assets/web/5.png"
 
 export default function Lender() {
   return (
@@ -188,7 +193,7 @@ export default function Lender() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/0.png" alt="" />
+                            <img src={five} alt="" />
                             <div>
                               &ensp;
                               <span>Alex Smith</span>
@@ -323,7 +328,7 @@ export default function Lender() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/1.png" alt="" />
+                            <img src={one} alt="" />
                             <div>
                               &ensp;
                               <span>John Carter</span>
@@ -458,7 +463,7 @@ export default function Lender() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/2.png" alt="" />
+                            <img src={two} alt="" />
                             <div>
                               &ensp;
                               <span>Niya K</span>
@@ -593,7 +598,7 @@ export default function Lender() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/3.png" alt="" />
+                            <img src={three} alt="" />
                             <div>
                               &ensp;
                               <span>Ruhi Alex </span>
@@ -728,7 +733,7 @@ export default function Lender() {
                         <td className="name">
                           <div className="nameDiv">
                             &ensp; &ensp;
-                            <img src="/web/4.png" alt="" />
+                            <img src={four} alt="" />
                             <div>
                               &ensp;
                               <span>Shane Warner</span>
@@ -1069,7 +1074,7 @@ export default function Lender() {
                 <div className="allData">
                   <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
                     <div>
-                      <img src="/web/1.png" alt="" />
+                      <img src={one} alt="" />
                     </div>
                       <div>
                         <p className="" style={{color:"#000",fontSize:"20px",fontWeight:"600", marginBottom:"0px"}}>John Carter</p>
