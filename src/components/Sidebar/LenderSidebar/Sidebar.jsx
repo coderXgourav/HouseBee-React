@@ -1,5 +1,5 @@
 import { Link,useLocation } from "react-router-dom";
-import logo from "../../../assets/web/image 4.png";
+import logo from "../../../assets/web/image4.png";
 
 import "../sidebar.css";
 import { useState,useEffect } from "react";
