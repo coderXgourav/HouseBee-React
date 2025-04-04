@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./signup.css";
 import { Link } from "react-router-dom";
-import img1 from "../../assets/web/img.png";
+import img from "../../assets/web/img.png";
 import logo from "../../assets/web/image 4.png";
 
 const Login = () => {
@@ -20,7 +20,7 @@ const Login = () => {
     <div className="main">
       <div className="left-panel">
         <img
-          src={img1}
+          src={img}
           alt="Modern building with glass facade"
         />
         <div className="logo">
